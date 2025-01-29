@@ -8,21 +8,21 @@ body:
       label: As a
       description: Who wants this feature?
     validations:
-      required: true
+      required: false
   - id: i-need
     type: input
     attributes:
       label: I need
       description: What feature do they want?
     validations:
-      required: true
+      required: false
   - id: so-that
     type: input
     attributes:
       label: So that
       description: What goal are they trying to achieve?
     validations:
-      required: true
+      required: false
   - id: assumptions-and-details
     type: textarea
     attributes:
@@ -37,4 +37,4 @@ body:
       description: Write down what it means for this story to be Done.
       render: gherkin
     validations:
-      required: true
+      required: false
