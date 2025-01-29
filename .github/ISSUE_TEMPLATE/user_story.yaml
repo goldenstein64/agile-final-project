@@ -27,7 +27,7 @@ body:
     type: textarea
     attributes:
       label: Assumptions and Details
-      descripion: Write down anything the developer needs to know here.
+      description: Write down anything the developer needs to know here.
     validations:
       required: false
   - id: acceptance-criteria
