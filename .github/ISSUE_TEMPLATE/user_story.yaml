@@ -1,0 +1,40 @@
+name: User Story
+description: Create a user story.
+projects: ["goldenstein64/3"]
+body:
+  - id: as-a
+    type: input
+    attributes:
+      label: As a
+      description: Who wants this feature?
+    validations:
+      required: true
+  - id: i-need
+    type: input
+    attributes:
+      label: I need
+      description: What feature do they want?
+    validations:
+      required: true
+  - id: so-that
+    type: input
+    attributes:
+      label: So that
+      description: What goal are they trying to achieve?
+    validations:
+      required: true
+  - id: assumptions-and-details
+    type: textarea
+    attributes:
+      label: Assumptions and Details
+      descripion: Write down anything the developer needs to know here.
+    validations:
+      required: false
+  - id: acceptance-criteria
+    type: textarea
+    attributes:
+      label: Acceptance Criteria
+      description: Write down what it means for this story to be Done.
+      render: gherkin
+    validations:
+      required: true
